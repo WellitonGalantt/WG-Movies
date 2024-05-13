@@ -1,0 +1,60 @@
+
+header{
+  position: sticky;
+  width: 100%;
+  min-height: 60px;
+  padding: 1rem 6rem;
+  margin: 0 0 3rem 0;
+  background-color: #212b38;
+  z-index: 10;
+  top: 0;
+  right: 0;
+}
+
+.header-box-itens{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.header-logo-wg-movie{
+  display: flex;
+  align-items: center;
+  color: #0bc6ab;
+  font-size: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  gap: 4px;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form input{
+  background: none;
+  border: solid 2px #0bc6ab;
+  border-radius: 20px;
+  width: 300px;
+  height: 40px;
+  padding: 0 10px;
+  margin:  0 6px 0 0;
+  color: #f7f7f7;
+}
+
+form button{
+  display: flex;
+  align-items: center;
+  background: none;
+  color: #f7f7f7;
+  border: solid 2px #0bc6ab;
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  font-size: 25px;
+  cursor: pointer;
+}

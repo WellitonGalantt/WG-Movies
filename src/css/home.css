@@ -1,0 +1,50 @@
+
+.home-page-container-todo{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  min-height: 100vh;
+  padding: 3rem 0;
+}
+
+/* Rated Movies */
+
+.rated-movies-title{
+  color: #f7f7f7;
+  font-size: 50px;
+}
+
+.rated-movies-list-box{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 1rem 0;
+  margin-bottom: 3rem;
+  gap: 2rem;
+}
+
+.button-charge-more-movies{
+  background: none;
+  border: none;
+  width: fit-content;
+  height: fit-content;
+  pointer-events: none;
+}
+
+.button-charge-more-movies a{
+  color: #f7f7f7;
+  background-color: #0bc6ab;
+  pointer-events: all;
+  border: solid 2px #f7f7f7;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 6px 20px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.button-charge-more-movies a:hover{
+  border: solid 2px #0bc6ab;
+  background-color: transparent;
+}

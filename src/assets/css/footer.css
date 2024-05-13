@@ -1,0 +1,25 @@
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #212b38;
+  min-height: 10vh;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+footer span.header-logo-wg-movie{
+  font-size: 50px;
+  pointer-events: none;
+}
+
+footer p{
+  font-weight: 600;
+  font-size: 14px;
+  color: #324155;
+  word-spacing: .5rem;
+  letter-spacing: .8rem;
+  pointer-events: none;
+}
